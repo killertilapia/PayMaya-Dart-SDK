@@ -2,11 +2,15 @@ name: paymaya_dart
 version: 0.1.0-dev
 description: This SDK allows Dart/Flutter applications to accept payments from MasterCard/Visa cardholders via the PayMaya API.
 author: Jay Ginete <killertilapia@gmail.com>
-homepage: https://github.com/killertilapia/PayMaya-Dart-SDK
+repository: https://github.com/killertilapia/PayMaya-Dart-SDK
+issue_tracker: https://github.com/killertilapia/PayMaya-Dart-SDK/issues
 
 environment:
   sdk: ">=2.1.0 <3.0.0"
 
 dependencies:
+  credit_card_validator: 
+    git: git://github.com/killertilapia/credit_card_validator
+  http: ^0.12.0+3
 
 dev_dependencies:

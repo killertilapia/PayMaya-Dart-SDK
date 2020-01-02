@@ -62,7 +62,7 @@ class BuyerModel{
   String ipAddress;
   String customerId;
 
-  BuyerModel(String this.firstName, String this.lastName, {String this.middleName = ''}){
+  BuyerModel({String this.firstName = '', String this.lastName = '', String this.middleName = ''}){
     this.firstName = firstName;
     this.middleName = middleName;
     this.lastName = lastName;
