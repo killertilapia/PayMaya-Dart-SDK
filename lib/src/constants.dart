@@ -21,4 +21,4 @@ const CHECKOUT_PRODUCTION_URL = "https://pg.paymaya.com/checkout";
 const CHECKOUTS_URL = "/v1/checkouts";
 
 // Redirect URLS
-const REDIRECT_URLS = {"success": "", "failure": "", "cancel": ""};
+Map<String, String> REDIRECT_URLS = {"success": "", "failure": "", "cancel": ""};
