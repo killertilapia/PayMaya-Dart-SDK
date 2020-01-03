@@ -35,7 +35,7 @@ class APIManager{
     this.http_headers[HttpHeaders.authorizationHeader] = "Basic ${token}";
   }
 
-  Future<String> execute(String url, String key, String method, String payload) async{
+  Future<String> execute(String url, String payload, {String key, String method}) async{
     String api_key = '';
 
     if(key.isNotEmpty){
